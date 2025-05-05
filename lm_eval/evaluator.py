@@ -485,10 +485,6 @@ def evaluate(
 
         if getattr(lm, "MULTIMODAL", False) != getattr(task, "MULTIMODAL", False):
             incompatible_tasks.append(task_output.task_name)
-        elif getattr(task, "UNSAFE_CODE", False) and not confirm_run_unsafe_code:
-            raise ValueError(
-                f"Attempted to run task: {task_output.task_name} which is marked as unsafe. Set confirm_run_unsafe_code=True to run this task."
-            )
     if len(incompatible_tasks) > 0:
         if not getattr(lm, "MULTIMODAL", False):
             raise ValueError(
