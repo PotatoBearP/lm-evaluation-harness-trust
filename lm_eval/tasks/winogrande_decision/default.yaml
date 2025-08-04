@@ -1,9 +1,9 @@
 task: winogrande_decision
-dataset_path: yedi-hu/winogrande-dup
+dataset_path: yedi-hu/winogrande_decision
 dataset_name: null
 output_type: multiple_choice
 training_split: train
-validation_split: validation
+validation_split: train_subset
 doc_to_text: !function preprocess_winogrande.doc_to_text
 doc_to_target: !function preprocess_winogrande.doc_to_target
 doc_to_choice: !function preprocess_winogrande.doc_to_choice
