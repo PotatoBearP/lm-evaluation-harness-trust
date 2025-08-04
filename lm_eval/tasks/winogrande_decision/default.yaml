@@ -1,4 +1,4 @@
-task: winogrande
+task: winogrande_decision
 dataset_path: yedi-hu/winogrande-dup
 dataset_name: null
 output_type: multiple_choice
