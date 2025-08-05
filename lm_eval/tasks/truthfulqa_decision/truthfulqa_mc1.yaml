@@ -1,6 +1,6 @@
 tag:
   - truthfulqa
-task: truthfulqa_decision_mc1
+task: truthfulqa_mc1
 dataset_path: yedi-hu/truthful_qa_decision
 dataset_name: null
 output_type: multiple_choice

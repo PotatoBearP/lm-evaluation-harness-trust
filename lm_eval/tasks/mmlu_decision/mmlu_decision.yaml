@@ -1,6 +1,6 @@
 task: mmlu_decision
-dataset_path: cais/mmlu
-dataset_name: all
+dataset_path: yedi-hu/mmlu_decision
+dataset_name: null
 test_split: validation
 fewshot_split: train
 fewshot_config:
